@@ -6,7 +6,7 @@ const catInfo = document.querySelector('.cat-info');
 
 function fetchBreeds() {
   loader.style.display = 'block';
-  // breedSelect.style.display = 'none';
+  breedSelect.style.display = 'none';
   error.style.display = 'none';
   catInfo.innerHTML = '';
 
