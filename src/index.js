@@ -5,7 +5,6 @@ axios.defaults.headers.common['x-api-key'] =
   'live_LdfqGvSEWRIM1c2puv3QUFyTjYi5rWEM2QhddQ8nHKFGtnUTjR9YAzb2qCampoZA';
 const url = 'https://api.thecatapi.com/v1/breeds';
 const breedSelect = document.querySelector('.breed-select');
-const error = document.querySelector('.error');
 const catInfo = document.querySelector('.cat-info');
 
 breedSelect.addEventListener('change', () => {
